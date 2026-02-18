@@ -6,7 +6,8 @@
     "start": "expo start --offline",
     "android": "expo start --android --offline",
     "ios": "expo start --ios --offline",
-    "web": "expo start --web --offline"
+    "web": "expo start --web --offline",
+    "build:web": "expo export --platform web"
   },
   "dependencies": {
     "@expo/metro-runtime": "^6.1.2",
